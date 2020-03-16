@@ -14,3 +14,4 @@ if remove_models:
 
 os.system('python3 -m venv venv')
 os.system('venv/bin/pip3 install -r requirements.txt')
+os.system('venv/bin/pip3 install -r requirements-dev.txt')
