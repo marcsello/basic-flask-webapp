@@ -1,0 +1,14 @@
+{% raw %}{% extends "base.html" %}
+
+{% block page_title %}Home{% endblock %}
+
+{% block content %}
+<div class="hello">
+<h1>Hello World!</h1>
+    <ul>
+    {% for visitor in visitors %}
+        <li>{{visitor.id}}. {{visitor.at}} - {{visitor.user_agent}}</li>
+    {% endfor %}
+    </ul>
+</div>
+{% endblock %}{% endraw %}

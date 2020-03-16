@@ -1,0 +1,11 @@
+requests
+blinker
+Flask
+marshmallow
+Flask-Classful
+{% if cookiecutter.use_sqlalchemy == 'y' %}Flask-SQLAlchemy
+SQLAlchemy-Utils
+SQLAlchemy
+marshmallow-sqlalchemy
+{{ cookiecutter.relational_db_driver }}
+{% endif %}

@@ -1,0 +1,10 @@
+html,
+body {
+  height: 100%;
+  background-color: lightgrey;
+}
+
+div.hello {
+  text-align: center;
+  padding-top: 25vh;
+}

@@ -1,0 +1,22 @@
+{% raw %}<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <title>{% block page_title %}{% endblock %} - {% endraw %}{{cookiecutter.app_friendly_name}}{% raw %}</title>
+
+    {% block includes %}
+        <link rel="stylesheet" href="/static/style.css">
+    {% endblock %}
+
+</head>
+<body>
+    <div>
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>
+{% endraw %}
